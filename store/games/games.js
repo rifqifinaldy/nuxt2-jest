@@ -49,7 +49,7 @@ const getters = {
   },
   playstationfour(state) {
     return state.filter(({ console }) => {
-      return console === 'PlayStation4'
+      return console === 'PlayStation 4'
     })
   },
   consoleType(state) {
